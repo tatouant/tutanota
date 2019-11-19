@@ -28,14 +28,14 @@ export const _TypeModel: TypeModel = {
 			"id": 1043,
 			"since": 18,
 			"type": "LIST_ELEMENT_ASSOCIATION",
-			"cardinality": "One",
-			"refType": "Invoice",
+			"cardinality": "ZeroOrOne",
+			"refType": "LegacyInvoice",
 			"final": false,
 			"external": false
 		}
 	},
 	"app": "sys",
-	"version": "50"
+	"version": "52"
 }
 
 export function createDebitServicePutData(values?: $Shape<$Exact<DebitServicePutData>>): DebitServicePutData {

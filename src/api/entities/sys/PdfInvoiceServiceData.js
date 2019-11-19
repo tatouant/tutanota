@@ -24,7 +24,7 @@ export const _TypeModel: TypeModel = {
 		"invoiceNumber": {
 			"name": "invoiceNumber",
 			"id": 1600,
-			"since": 50,
+			"since": 52,
 			"type": "String",
 			"cardinality": "One",
 			"final": false,
@@ -38,13 +38,13 @@ export const _TypeModel: TypeModel = {
 			"since": 9,
 			"type": "LIST_ELEMENT_ASSOCIATION",
 			"cardinality": "ZeroOrOne",
-			"refType": "Invoice",
+			"refType": "LegacyInvoice",
 			"final": false,
 			"external": false
 		}
 	},
 	"app": "sys",
-	"version": "50"
+	"version": "52"
 }
 
 export function createPdfInvoiceServiceData(values?: $Shape<$Exact<PdfInvoiceServiceData>>): PdfInvoiceServiceData {

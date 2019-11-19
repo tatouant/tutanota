@@ -54,7 +54,7 @@ export const _TypeModel: TypeModel = {
 		}
 	},
 	"app": "sys",
-	"version": "50"
+	"version": "52"
 }
 
 export function createMembershipAddData(values?: $Shape<$Exact<MembershipAddData>>): MembershipAddData {
